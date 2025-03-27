@@ -98,7 +98,6 @@ class ShortServiceTest {
 
     @Test
     void updateShortURL_shouldReturnUpdatedShortUrlResponse_WhenShortCodeExists() {
-        // Given
         String shortCode = "test";
         CreateShortUrl updateRequest = new CreateShortUrl("updated-google.com");
 
